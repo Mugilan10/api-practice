@@ -21,3 +21,8 @@ Command-line programs using APIs built in python
 - prints exchange rate in usd
 - also handles Key error if invalid currency given as input
 - also handles connection error
+
+## stock_price.py - What it does
+- uses https://query1.finance.yahoo.com/v8/finance/chart/
+- uses headers (Mozilla/5.0) to simulate browser as it does not allow "bots" to access it
+- also handles connection error
