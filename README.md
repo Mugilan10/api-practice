@@ -13,3 +13,11 @@ Command-line programs using APIs built in python
 - extracts longitude and latitude from location data and uses it in fstring to fetch weather data of that location
 - prints weather and windspeed
 - also prints brief description of weather
+- also handles connection error
+
+## crypto_price.py - What it does
+- uses https://api.coingecko.com/api/v3/simple/price?
+- takes user input and uses it in fstring to fetch exchange rate of crypto using coingecko-api
+- prints exchange rate in usd
+- also handles Key error if invalid currency given as input
+- also handles connection error
