@@ -1,0 +1,15 @@
+# API practice programs
+Command-line programs using APIs built in python
+
+## api_test - What it does
+- uses https://api.open-meteo.com/v1/forecast?
+- retrieves weather data for latitude=13.08, longitude=80.27 in json format
+- prints weather and windspeed
+- uses requests.exceptions.ConnectionError in except block to prevent program from crashing
+
+## weather_city - What it does
+- uses https://geocoding-api.open-meteo.com/v1/search?
+- takes user input and uses it in fstring to fetch location data using geocoding-api
+- extracts longitude and latitude from location data and uses it in fstring to fetch weather data of that location
+- prints weather and windspeed
+- also prints brief description of weather
